@@ -16,6 +16,6 @@ $query = "INSERT INTO `cad` ( 'codigo' , 'tipo' , 'nome' , 'quant' , 'preco' , '
 VALUES ('$codigo', '$tipo', '$nome', '$quant', '$preco', '$negoc')";
 mysql_query($query,$conexao); 
 
-echo "Seu cadastro foi realizado com sucesso!"; 
+echo "Seu cadastro foi realizado com sucesso!";
 ?>  
 	
