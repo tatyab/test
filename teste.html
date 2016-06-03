@@ -1,9 +1,6 @@
 <html>
-
 <head>
-  
- <title> Negociação de Mercadorias </title>
-
+ <title> NegociaÃ§Ã£o de Mercadorias </title>
  <script>
  function funcao1()
  {
@@ -11,81 +8,51 @@
  }
  </script>
 </head>
-
-
-
 <body style="background:#F2ECEC">
- 
 <p align="center" >
 <font>
 <br/> <br/>
  <table cellpadding="5">
- 
 <tr>
- 
-  <td> Código da Mercadoria:</td>
-   
-<td><input type="text" name="codigo" id="codigo" size="40" > <br />
+  <td> CÃ³digo da Mercadoria:</td>
+  <td><input type="text" name="codigo" id="codigo" size="40" > <br />
 </td>
-
 </tr>
  
 <tr>
-  
   <td> Tipo da Mercadoria:</td>
-   
   <td><input type="text" name="tipo" id="tipo" size="40"> <br /></td>
-
- </tr>
-   
+</tr>
+ 
 <tr>
-   
  <td> Nome da Mercadoria:</td>
- 
-   <td><input type="text" name="nome" id="nome" size="40"> <br /></td>
-  
- </tr>
-  
-   <tr>
-    
-<td> Quantidade:</td>
-   
- <td><input type="text" name="quant" id="quant" size="40"> <br /></td>
-  
- </tr>
- <tr>
-   
- <td> Preço:</td>
-   
- <td><input type="text" name="preco" id="preco" size="40"> 
-<br /></td>
- 
-  </tr>
+ <td><input type="text" name="nome" id="nome" size="40"> <br /></td>
+</tr>
   
 <tr>
-   
- <td> Tipo de Negócio: </td>
- 
-<td> <input type="radio" name="negoc" id="negoc"> Compra 
+   <td> Quantidade:</td>
+   <td><input type="text" name="quant" id="quant" size="40"> <br /></td>
+</tr>
 
- <input type="radio" name="negoc" id="negoc" > Venda </td>
- 
+ <tr>
+  <td> PreÃ§o:</td>
+  <td><input type="text" name="preco" id="preco" size="40"> <br /></td>
  </tr>
- 
- 
+  
+<tr>
+ <td> Tipo de NegÃ³cio: </td>
+ <td> <input type="radio" name="negoc" id="negoc"> Compra 
+      <input type="radio" name="negoc" id="negoc" > Venda </td>
+</tr>
 </table>
 <br/>
 
  <input type="submit" name="enviar" id="enviar" value="Enviar" onClick="funcao1()">
- 
  <input type="reset" name="limpar" id="limpar" value="Limpar">
-
- 
  <form method="POST" action="cad.php">
 
  </form>
  </font>
  </p>
 </body>
-
 </html>
