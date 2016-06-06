@@ -9,8 +9,8 @@ $negoc = $_POST['negoc'];
 
 $connect = mysql_connect('servidor','usuario','senha');
 $db = mysql_select_db('cad');
-if (!$conexao) 
 
+if (!$conexao) 
 $banco = mysql_select_db("cad",$conexao);
 $query = "INSERT INTO `cad` ( 'codigo' , 'tipo' , 'nome' , 'quant' , 'preco' , 'negoc') 
 VALUES ('$codigo', '$tipo', '$nome', '$quant', '$preco', '$negoc')";
